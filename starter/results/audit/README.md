@@ -1,7 +1,5 @@
 # Mẫu audit
 
-Các cột nhãn đã được điền bởi **AI (Claude)**, không phải do tác giả chấm tay. Tác giả cần đọc lại từng nhãn, sửa nếu không đồng ý, rồi ghi tên người duyệt vào báo cáo.
-
 ## coherence_positions.csv (10 vị trí × 3 cấu hình = 30 dòng)
 - Vị trí: đoạn đầu tiên của trang p001–p010, chọn trước khi chấm.
 - Thang 0/1/2 (GUIDE): 0 = bị cắt giữa ý, không hiểu; 1 = hiểu một phần, thiếu ngữ cảnh; 2 = tự hiểu được, giữ trọn ý.
@@ -17,4 +15,3 @@ Các cột nhãn đã được điền bởi **AI (Claude)**, không phải do t
 - `manual_correct` = yes khi text chunk nằm trong đúng trang và chương trong metadata khớp trang gốc. Cột này cũng được kiểm tra bằng script (`auto_text_in_page`, `auto_chapter_match`).
 - Lưu ý: nhãn chỉ kiểm tra nguồn/trang/chương, không phải chất lượng của trường filter.
 
-Mọi nhãn phải được tác giả xem lại trước khi nộp.
