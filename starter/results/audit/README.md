@@ -13,5 +13,3 @@
 
 ## metadata_test_top3.csv (8 câu test × top-3 × 3 cấu hình = 72 dòng)
 - `manual_correct` = yes khi text chunk nằm trong đúng trang và chương trong metadata khớp trang gốc. Cột này cũng được kiểm tra bằng script (`auto_text_in_page`, `auto_chapter_match`).
-- Lưu ý: nhãn chỉ kiểm tra nguồn/trang/chương, không phải chất lượng của trường filter.
-
